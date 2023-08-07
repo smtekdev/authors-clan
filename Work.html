@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<!-- 
+Template Name:Writer HTML5 Website Template
+Version: 1.0.0
+Author: PixelNX
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+
+<!-- Begin Head -->
+
+<head>
+    <!--=== Required meta tags ===-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--=== custom css ===-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="../../css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Mulish:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../swiper%4010.1.0/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../../ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--=== custom css ===-->
+    <title>Writer</title>
+</head>
+
+<body>
+    <div class="Wr-header-wrapper">
+
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-4 col-sm-5 col-12">
+                    <div class="writer-logo">
+                        <a href="index.html">
+                            <img src="assets/images/Logo.png" class="img-fluid" alt="logo" title="logo">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-7 col-12">
+                    <div class="Wr-menu-bar">
+                        <ul>
+                            <li>
+                                <a class="" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="Work.html">Works</a>
+                            </li>
+                            <li>
+                                <a href="team.html">Team</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+
+                            <!-- <li>
+								<a href="javascript:;">Create Account</a>
+							</li> -->
+                        </ul>
+
+                        <div class="wh-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <a href="javascript:;">Create
+                                Account</a>
+                        </div>
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#exampleModalCenter">
+                            Launch demo modal
+                        </button> -->
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="model-main-content">
+                                            <div class="left-img-sec">
+                                                <img src="assets/images/signup_bg.jpg" alt="">
+                                            </div>
+                                            <div class="right-content-sec">
+
+
+                                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+
+                                                <img src="assets/images/Logo.png" alt="">
+                                                <div class="signup_form_section">
+                                                    <h4>Sign Up Account</h4>
+                                                    <p>Sign Now helps you maintain high productivity </p>
+
+                                                    <div class="form_block">
+                                                        <input type="text" class="form_field" placeholder="Name">
+                                                    </div>
+                                                    <div class="form_block">
+                                                        <input type="text" class="form_field" placeholder="Email">
+                                                    </div>
+                                                    <div class="form_block">
+                                                        <input type="text" class="form_field" placeholder="Password">
+                                                    </div>
+                                                    <div class="Wr-btn">
+                                                        <a href="">sign up</a>
+                                                    </div>
+
+                                                </div>
+                                                <p>Already Have An account? <span id="login">Login Here</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- second -->
+                        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="model-main-content">
+                                            <div class="left-img-sec">
+                                                <img src="assets/images/signup_bg.jpg" alt="">
+                                            </div>
+                                            <div class="right-content-sec pd-top">
+
+
+                                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+
+                                                <img src="assets/images/Logo.png" alt="">
+                                                <div class="signup_form_section">
+                                                    <h4>Login Account</h4>
+                                                    <p>Login Now helps you maintain high productivity </p>
+
+                                                    <div class="form_block">
+                                                        <input type="text" class="form_field" placeholder="Email">
+                                                    </div>
+                                                    <div class="form_block">
+                                                        <input type="text" class="form_field" placeholder="Password">
+                                                    </div>
+                                                    <div class="Wr-btn">
+                                                        <a href="">Login</a>
+                                                    </div>
+                                                </div>
+                                                <p>Don't Have An account? <span id="register">Register Here</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home manu -->
+    <div class="app-_page_title_bg">
+        <div class="container">
+            <div class="dis_flex">
+                <div class="app-_title">Works</div>
+                <div class="pull-right">
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Home </a></li>
+                        <li class="active"> / Works</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- gallery section start -->
+    <div class="wr_gallery_sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g1.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="" class="fancybox" rel="group">Gary C. Sims</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g2.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g2.jpg" class="fancybox" rel="group">Ramona E. Jensen</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g3.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g3.jpg" class="fancybox" rel="group">Melanie J. Quinn</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g5.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g5.jpg" class="fancybox" rel="group">Diana J. Dumais</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g8.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g8.jpg" class="fancybox" rel="group">Han J. Barker</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g9.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g9.jpg" class="fancybox" rel="group">Ethel C. Brown</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g10.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g10.jpg" class="fancybox" rel="group">Tera J. Gorman</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g11.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g11.jpg" class="fancybox" rel="group">Ann O. Sherman</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="wr_gallery_sec_col">
+                        <img src="assets/images/g4.jpg" alt="">
+                        <div class="gallery_text">
+                            <h4><a href="images/gallery/g4.jpg" class="fancybox" rel="group">Tina R. Moore</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery section end -->
+    <!-- Features-section-start -->
+    <div class="Wr-features-section" id="work">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="Wr-features-contant one-color">
+                        <div class="no-contant">
+                            <span>01</span>
+                        </div>
+                        <div class="right-contant">
+                            <h3>Place an order</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum deserunt saepe quas
+                                ut, fugit harum quo nesciunt aspernatur libero ipsum voluptates fugiat!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="Wr-features-contant two-color">
+                        <div class="no-contant">
+                            <span class="color2">02</span>
+                        </div>
+                        <div class="right-contant">
+                            <h3>Select a writer</h3>
+                            <p> Inventore eum quas recusandae ipsum beatae nostrum nihil eligendi repellat totam,
+                                numquam unde eius tempore quod? Ea voluptatem aperiam odit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="Wr-features-contant three-color">
+                        <div class="no-contant">
+                            <span class="color3">03</span>
+                        </div>
+                        <div class="right-contant">
+                            <h3>Track the progress</h3>
+                            <p>Saepe odit doloribus ea non quis deleniti natus molestias.Earum, maxime eos. Qui
+                                perspiciatis hic a! Optio non corporis ea et! Magnam modi quidem</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="Wr-features-contant four-color">
+                        <div class="no-contant">
+                            <span class="color4">04</span>
+                        </div>
+                        <div class="right-contant">
+                            <h3>Receive a paper</h3>
+                            <p>Esse ducimus quibusdam dicta inventore tempore quidem architecto consectetur? Ea possimus
+                                recusandae quod consequatur beatae tempora, earum eveniet sit!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features-section-and -->
+    <!-- subscribe_section_start -->
+    <div class="wr_subscribe_section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9">
+                    <div class="wr_content">
+
+                        <h2>Do You Want Write for your dream project <span>Here me</span></h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration<br>
+                            in
+                            some form, by injected humour,</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="Wr-btn">
+                        <a href="">Get Free Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--subscribe_section_end-->
+    <!-- Footer-section-start -->
+    <div class="Wr-footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="footer-content">
+                        <div class="writer-logo">
+                            <a href="index.html">
+                                <img src="assets/images/Logo.png" class="img-fluid" alt="logo" title="logo">
+                            </a>
+                        </div>
+                        <p>Consectetur adipiscieng elit, sed do emesdeod tempor incididunt ueseft labore eest dolorsase
+                            miagna aliqua.<br><br>
+
+                            Quis ipsum suspendisse ultrsices gravidai Risus commodo viverra maecenas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="link">
+                        <div class="footer-heading">
+                            <h2 class="use-link">Useful Link</h2>
+                        </div>
+                        <div class="wr_footer_display">
+                            <ul>
+                                <li><a href=""><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span>Home</a></li>
+                                <li><a href=""><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span>About Us</a></li>
+                                <li><a href=""> <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span>Services Pages</a></li>
+                                <li><a href=""><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span>Blog</a></li>
+                                <li><a href=""><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span>Contact Us</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href=""><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span>Offers</a></li>
+                                <li><a href=""><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span>Projects</a></li>
+                                <li><a href=""><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.069in" height="0.153in">
+                                                <path fill-rule="evenodd" fill="rgb(130, 130, 130)" d="M-0.000,10.090 L4.997,5.094 L-0.000,0.097 L-0.000,10.090 Z"></path>
+                                            </svg></span> Pricing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="footer-heading">
+                        <h2>Newsletter</h2>
+                        <h6>Make sure you don't miss anything!</h6>
+                        <div class="text-content">
+                            <input type="text" id="lname" name="lname" placeholder="Enter Your Email Here" class="text-sub">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewbox="0 0 23 22">
+
+                                    <path class="cls-1" d="M1502.77,4882.79q4.77-5.73,9.53-11.45a0.219,0.219,0,0,0-.03-0.05,2.4,2.4,0,0,0-.26.18q-5.91,5.04-11.81,10.09a0.666,0.666,0,0,1-.76.14c-1.78-.62-3.56-1.22-5.35-1.82a0.772,0.772,0,0,1-.12-1.52q10.575-5.505,21.16-11.03a0.811,0.811,0,0,1,.96-0.03,0.834,0.834,0,0,1,.25.93q-0.93,6.21-1.85,12.41c-0.24,1.64-.48,3.28-0.73,4.92a0.729,0.729,0,0,1-1.03.67q-4.9-1.665-9.8-3.35A0.7,0.7,0,0,1,1502.77,4882.79Zm-1.02,1.21c1.32,0.45,2.57.88,3.87,1.32a2.838,2.838,0,0,1-.18.31c-0.75,1.03-1.51,2.04-2.25,3.07a0.791,0.791,0,0,1-.94.41,0.771,0.771,0,0,1-.5-0.86C1501.76,4886.86,1501.75,4885.47,1501.75,4884Z" transform="translate(-1493.38 -4867.16)"></path>
+                                </svg></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>© 2022, Writer. All rights reserved.</p>
+    </div>
+    <!-- Footer-section and -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="../../swiper%4010.1.0/swiper-bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/SmoothScroll.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!--=== Optional JavaScript ===-->
+</body>
+
+</html>
